@@ -1,0 +1,22 @@
+{
+  "id": "cinematic-commercial",
+  "slug": "cinematic-commercial",
+  "number": "03",
+  "title": "Aetheria Narrative Spot",
+  "category": "AI Video",
+  "categorySlug": "ai-video",
+  "featured": false,
+  "client": "Aetheria Fragrance",
+  "year": "2026",
+  "duration": "20s Cinema Teaser",
+  "description": "Atmospheric cinematic visual poetry exploring amber light diffusion, mist dynamics, and photorealistic talent performance for luxury perfume launch.",
+  "tools": ["Runway Gen-3", "Kling AI", "Midjourney v6", "DaVinci Resolve"],
+  "metrics": [
+    { "label": "Engagement Rate", "value": "11.4%" },
+    { "label": "Full Plays", "value": "1.8M" },
+    { "label": "Color Grade", "value": "Film Stock LUT" }
+  ],
+  "overview": "Directed and generated an atmospheric mood film capturing golden hour amber perfume bottles against Mediterranean coastlines.",
+  "challenge": "Capturing cinematic coastal lighting with golden reflections and mist in live production takes full crew transport and unpredictable weather delays.",
+  "solution": "Built dynamic camera motion paths in Runway Gen-3 and blended particle physics in DaVinci Resolve."
+}

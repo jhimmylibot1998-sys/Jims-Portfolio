@@ -1,0 +1,22 @@
+{
+  "id": "cachivane-paris-handbag",
+  "slug": "cachivane-paris-handbag",
+  "number": "02",
+  "title": "Cachivane Paris Leather",
+  "category": "UGC & Commercial",
+  "categorySlug": "ugc-commercial",
+  "featured": false,
+  "client": "Cachivane Paris",
+  "year": "2026",
+  "duration": "30s Brand Commercial",
+  "description": "Cinematic European fashion brand film capturing timeless pebble-grain leather craftsmanship, golden hardware details, and Parisian street movement.",
+  "tools": ["Runway Gen-3 Alpha", "Midjourney v6", "Premiere Pro", "Suno Audio"],
+  "metrics": [
+    { "label": "Social Reach", "value": "2.4M+" },
+    { "label": "Engagement Rate", "value": "8.7%" },
+    { "label": "Cost Reduction", "value": "86%" }
+  ],
+  "overview": "Directed an elevated luxury commercial for the Cachivane signature leather handbag, featuring an elegant model in tailored tailoring navigating Parisian architectural streets with macro texture closeups.",
+  "challenge": "On-location luxury filming in Paris typically demands city filming permits, insurance, high-end cinema camera rigs, and high talent fees.",
+  "solution": "Generated high-fashion lighting and hyper-consistent handbag geometry across cinematic walk cycles using Runway Gen-3 camera tracking and custom architectural LoRAs."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "content-automation-engine",
+  "slug": "content-automation-engine",
+  "number": "02",
+  "title": "Content Automation Engine",
+  "category": "Intelligent Automation",
+  "categorySlug": "intelligent-automation",
+  "featured": false,
+  "client": "Synthetix Tech Labs",
+  "year": "2026",
+  "duration": "Continuous Pipeline",
+  "description": "Autonomous AI-powered content generation, thumbnail rendering, metadata tagging, and programmatic multi-platform distribution.",
+  "tools": ["Gemini API", "Google Cloud", "Zapier", "YouTube API"],
+  "metrics": [
+    { "label": "Asset Throughput", "value": "180/month" },
+    { "label": "Editorial Review", "value": "< 5 min" },
+    { "label": "Global Reach", "value": "12M Views" }
+  ],
+  "overview": "Architected an end-to-end automated content engine that generates video concepts, generates assets, compiles final social reels, and schedules publication.",
+  "challenge": "Producing high volumes of omnichannel technical content weekly without burning out editorial teams in manual export and captioning loops.",
+  "solution": "Built a Python & n8n orchestration using Gemini 2.5 Flash for script expansion and FFmpeg on Cloud Run for dynamic rendering and automated uploads."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ai-operational-backbone",
+  "slug": "ai-operational-backbone",
+  "number": "01",
+  "title": "AI Operational Backbone",
+  "category": "Intelligent Automation",
+  "categorySlug": "intelligent-automation",
+  "featured": true,
+  "client": "Vanguard Media Group",
+  "year": "2026",
+  "duration": "Full Pipeline Integration",
+  "description": "Automated production workflows connecting AI models, brief intake forms, CRM, and real-time asset delivery pipelines.",
+  "tools": ["Make", "n8n", "Gemini API", "Airtable", "Webhooks"],
+  "metrics": [
+    { "label": "Manual Hours Saved", "value": "140 hrs/mo" },
+    { "label": "Sync Latency", "value": "< 2.4s" },
+    { "label": "Lead Conversion", "value": "+44%" }
+  ],
+  "overview": "Architected an automated multi-branch operational backbone for a creative studio to eliminate manual handoffs between client brief and production kickoff.",
+  "challenge": "Team members spent 35% of their working hours manually copy-pasting client creative briefs, transcribing audio, and drafting project proposals.",
+  "solution": "Built an autonomous webhook orchestration in n8n connecting Typeform briefs to Gemini 2.5 Flash for instant brief synthesis, Airtable for task distribution, and Slack for alerts."
+}

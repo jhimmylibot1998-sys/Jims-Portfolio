@@ -1,0 +1,22 @@
+{
+  "id": "moduluxe-bento-organizer",
+  "slug": "moduluxe-bento-organizer",
+  "number": "01",
+  "title": "ModuLuxe Bento Prep Box",
+  "category": "E-Commerce Product Demo",
+  "categorySlug": "ecommerce-product-demo",
+  "featured": true,
+  "client": "ModuLuxe Home Goods",
+  "year": "2026",
+  "duration": "15s Product Demo",
+  "description": "Stop-motion and fluid commercial demonstrating modular bento snack organization, fresh fruit sorting, and seamless refrigerator storage.",
+  "tools": ["Kling AI", "Runway Gen-3", "Topaz Video AI", "Blender"],
+  "metrics": [
+    { "label": "Add-to-Cart Lift", "value": "+64%" },
+    { "label": "Variants Delivered", "value": "12 Cuts" },
+    { "label": "4K Render Time", "value": "3.2 Hours" }
+  ],
+  "overview": "Produced a clean, satisfying product interaction video showing fresh blueberries, strawberries, and almonds being sorted into partitioned container compartments and stacked in a refrigerator.",
+  "challenge": "Physical product video shoots for domestic housewares require staged kitchens, food stylists, and studio lighting that inflate initial ad testing costs.",
+  "solution": "Modeled photorealistic bento geometries and rendered clean dynamic hand-interaction sequences using Kling AI and Runway Gen-3, upscaled to crisp 4K 60fps with Topaz AI."
+}

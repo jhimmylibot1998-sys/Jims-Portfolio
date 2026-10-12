@@ -1,0 +1,22 @@
+{
+  "id": "aurevane-lumisera",
+  "slug": "aurevane-lumisera",
+  "number": "01",
+  "title": "Aurevane Lumisera Serum",
+  "category": "UGC & Commercial",
+  "categorySlug": "ugc-commercial",
+  "featured": true,
+  "client": "Aurevane Skincare",
+  "year": "2026",
+  "duration": "15s UGC Social Ad",
+  "description": "Authentic AI-generated beauty and skincare testimonial commercial showcasing natural morning lighting, real creator pacing, and dewy radiant skin glow.",
+  "tools": ["Runway Gen-3", "ElevenLabs Voice", "Midjourney v6", "DaVinci Resolve"],
+  "metrics": [
+    { "label": "TikTok ROAS", "value": "4.8x" },
+    { "label": "Organic Views", "value": "1.2M+" },
+    { "label": "Turnaround", "value": "24 Hours" }
+  ],
+  "overview": "Created an authentic, high-converting vertical UGC video advertisement featuring a natural beauty creator demonstrating the Lumisera facial serum, highlighting skin texture and immediate radiant glow.",
+  "challenge": "Traditional influencer and studio UGC shoots take weeks to coordinate, suffer from inconsistent brand messaging, and cost upwards of $3,500 per video variant.",
+  "solution": "Synthesized an authentic digital creator persona with natural speech cadences in ElevenLabs, generated fluid facial motion keyframes in Runway Gen-3, and composited photorealistic bottle typography and kinetic text overlays."
+}

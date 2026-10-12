@@ -1,0 +1,22 @@
+{
+  "id": "nexus-digital-runway",
+  "slug": "nexus-digital-runway",
+  "number": "03",
+  "title": "Nexus Digital Runway",
+  "category": "UGC & Commercial",
+  "categorySlug": "ugc-commercial",
+  "featured": false,
+  "client": "Nexus Wear",
+  "year": "2026",
+  "duration": "15s Vertical Feed",
+  "description": "High-velocity streetwear apparel cuts showcasing realistic fabric drape, urban movement, and kinetic typography for TikTok & Reels.",
+  "tools": ["Runway Gen-3", "Topaz Video AI", "After Effects"],
+  "metrics": [
+    { "label": "CTR", "value": "5.6%" },
+    { "label": "Views", "value": "3.1M" },
+    { "label": "Retention", "value": "89%" }
+  ],
+  "overview": "Synthesized dynamic urban fashion showcase with fluid physical fabric folds and realistic natural sunlight movement.",
+  "challenge": "Producing fast-turnaround streetwear campaign videos across 10 clothing SKUs without 10 separate physical model shoots.",
+  "solution": "Utilized pose-conditioned diffusion and motion synthesis with custom color-matching pipelines."
+}
