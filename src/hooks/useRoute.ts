@@ -7,10 +7,13 @@ export interface RouteState {
   path: string;
 }
 
-function parsePath(pathname: string, hash: string): RouteState {
-  // Support both standard HTML5 paths (/projects/...) and hash paths (/#/projects/...)
+function parsePath(pathname: string, hash: string, search: string = ''): RouteState {
+  // Support GitHub Pages 404.html redirect query parameter: ?/projects/...
   let effectivePath = pathname;
-  if (hash.startsWith('#/')) {
+
+  if (search.startsWith('?/')) {
+    effectivePath = '/' + search.slice(2).split('&')[0].replace(/~and~/g, '&');
+  } else if (hash.startsWith('#/')) {
     effectivePath = hash.slice(1);
   } else if (hash.startsWith('#projects/')) {
     effectivePath = '/' + hash.slice(1);
@@ -49,12 +52,12 @@ function parsePath(pathname: string, hash: string): RouteState {
 
 export function useRoute() {
   const [route, setRoute] = useState<RouteState>(() =>
-    parsePath(window.location.pathname, window.location.hash)
+    parsePath(window.location.pathname, window.location.hash, window.location.search)
   );
 
   useEffect(() => {
     const handlePopState = () => {
-      setRoute(parsePath(window.location.pathname, window.location.hash));
+      setRoute(parsePath(window.location.pathname, window.location.hash, window.location.search));
     };
 
     window.addEventListener('popstate', handlePopState);
@@ -75,11 +78,15 @@ export function useRoute() {
       return;
     }
 
+    // Detect GitHub pages or subpath hosting
+    const isGhPages = window.location.pathname.includes('/personal-portfolio');
+    const fullPath = isGhPages && to.startsWith('/') ? `/personal-portfolio${to}` : to;
+
     try {
-      window.history.pushState({}, '', to);
+      window.history.pushState({}, '', fullPath);
     } catch {
-      // In case of restricted iframe domain, fallback to hash
-      window.location.hash = to;
+      // In case of restricted iframe domain or static hosting restriction, fallback to hash
+      window.location.hash = to.startsWith('/') ? `#${to}` : to;
     }
 
     setRoute(parsePath(to, ''));
